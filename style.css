@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.title{
+    background-color: pink;
+    padding: 10px;
+    font-family: 'Sacramento', serif; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.title h1 small{
+    text-decoration: underline;
+    font-size: 50px;
+    color: rgb(255, 93, 120);
+}
+.nav{
+    width: auto;
+    background-color: rgb(255, 93, 120);
+    padding: 20px 0px 20px 0px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 20px 0px 20px;
+    color: rgb(15, 14, 8);
+    font-family: 'Prata', serif; 
+    background-color: pink;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 3px;
+    border-color: rgb(8, 8, 2);
+}
+.nav ul li a:hover{
+    background-color:rgb(75, 74, 74);
+    color: pink;
+    border-radius: 3px;
+}
+.nav .navright{
+    float: right;
+    padding-right: 100px;
+    margin-bottom: 200px;
+}
+.container{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), pink);
+    padding: 0px 250px 0px 250px;
+}
+.container .desc h1{
+    font-family: 'Prata', serif;
+    text-align: center;
+}
+.container .desc p{
+    font-size: 20px;
+}
+.container .desc button{
+    font-family: 'Sacramento', serif;
+    font-size: 20px;
+    border-radius: 5px;
+    float: right;
+    padding: 2px;
+    color: rgb(19, 14, 9);
+    background-color: rgb(250, 119, 141);
+}
+.container .desc button:hover{
+    padding: 5px;
+    background-color: rgb(255, 197, 207);
+}
+
+/* ---------------- */
+
+.container .main-content ul li{
+    width: 20%;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 45px;
+}
+.container .main-content ul li .box{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+.container .main-content h1{
+    font-family: 'Prata', serif;
+    font-size: 35px;
+    text-align: center;
+}
+.container .main-content button{
+    font-family: 'Sacramento', serif;
+    font-size: 20px;
+    /* float: right; */
+    margin-left: 1050px;
+    border-radius: 5px;
+    padding: 2px;
+    color: rgb(19, 14, 9);
+    background-color: rgb(250, 119, 141);
+}
+.container .main-content button:hover{
+    padding: 5px;
+    background-color: rgb(255, 197, 207);
+}
+
+/* footer  */
+.footer .upper-footer{
+    background-color: rgb(250, 119, 141);
+    padding: 0px 100px 0px 100px;
+}
+ .footer .upper-footer .foot ul li{
+    width: 15%;
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding: 20px;
+    margin: 45px;
+}
+/* .footer .upper-footer .container ul li .box{
+    display: block;
+    border: 2px solid black;
+    display: block;
+}  */
+.footer .lower-footer{
+    background-color: rgb(255, 161, 177);
+    padding: 0px 0 0px 150px;
+}
+.footer .lower-footer .foot .foot-container{
+    margin: 10px;
+    width: 35%;
+    display: inline-block;
+    padding-right: 10%;
+}
+.footer .lower-footer .foot ul{
+    padding-left: 30%;
+}
+ .footer .lower-footer .foot ul li{
+     padding-left: 5%;
+    display: inline-block;
+}
+.footer .lower-footer .foot ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* gallery page  */
+.gal-container img{
+    border: 2px solid red;
+}
+.gal-container ul li{
+    display: inline-block;
+    border: 2px solid red;
+    margin: 0px 10px 0px 0px;
+}
+.content-box{
+    margin-right: -100px;
+}
+.gal-container ul li .content-box{
+    width: 30%;
+}
+ ul li button{
+    padding: 10px 20px 10px 20px;
+}
